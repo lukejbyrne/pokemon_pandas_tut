@@ -26,3 +26,6 @@ for index, row in df.iterrows():
 ## Read a specific location
 # from item at index 2 get column 1 val
 print(df.iloc[2,1])
+
+print(df.describe())
+print(df.sort_values(['Type 1', 'HP'], ascending=[1,0]))
