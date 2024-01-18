@@ -17,3 +17,6 @@ new_cols = cols[0:4] + [cols[-1]] + cols[4:12]
 df = df[new_cols]
 
 print(df.head(5))
+
+# Save modified df to CSV
+df.to_csv('modified.csv')
