@@ -19,4 +19,4 @@ df = df[new_cols]
 print(df.head(5))
 
 # Save modified df to CSV
-df.to_csv('modified.csv')
+df.to_csv('modified.csv', index=False)
