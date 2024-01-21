@@ -20,3 +20,5 @@ print(df.head(5))
 
 # Save modified df to CSV
 df.to_csv('modified.csv', index=False)
+df.to_excel('modified.xlsx', index=False)
+df.to_csv('modified.txt', index=False, sep='\t')
